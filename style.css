@@ -1,0 +1,91 @@
+/*Body é a alteração geral de nossa página*/
+*{
+    box-sizing: border-box;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header é o cabeçalho de nossa página*/
+header{
+    background-color: #99d9ea;
+    padding: auto;
+    text-align: center;
+    font-size: 15px;
+    color:black;
+    
+}
+
+/* A flex-container é para a barra de informações do site, como a página inicial e as outras opções*/
+
+.botões{
+    background-color: #0088ac;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    transition-duration: 0.4s;
+}  
+
+.botões1{
+    background-color: #0088ac;
+    color:white;
+    border: none;
+}
+
+.botões1:hover{
+    background-color:#99d9ea;
+    color: black;
+}   
+
+.btn2{
+    background-color: #0088ac;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    transition-duration: 0.4s;
+    border-radius: 28px 0px 28px 0px;    
+}
+
+.btn2-5{
+    background-color: #99d9ea;
+    color: black;
+}
+
+.btn2-5:hover{
+    background-color: #99d9ea;
+    color: black;
+    border-radius: 0px 28px 0px 28px;
+}
+
+footer{
+    background-color: #2e3334;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color:white;
+}
+.nav {
+    background-color: #0088ac;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+  }
+  
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+a{
+    text-decoration: none;
+}  
