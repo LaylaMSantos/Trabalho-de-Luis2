@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background: #0088ac;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+nav .icone{
+    font-size: 30px;
+    font-weight: 800;
+    color:white;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+nav ul li{
+    margin: 0 2px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav ul li:hover a{
+    border-radius: 10px;
+    background: #99d9ea;
+    color: #000;
+}
+
+/* determina como a nav se comporta em outras telas */
+@media screen and (max-width: 1250px){
+    nav{
+        display: block;
+        padding: 0;
+    }
+    nav .icone{
+        display: inline-block;
+        padding: 15px 30px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        background: white;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    nav ul li a{
+        color: #0088ac;
+        font-size: 25px;
+        padding: 25px;
+        display: block;
+    }
+}
+
+/*imagem de fundo*/
+ .fundo{
+    background: url(img/cover_palmeira.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    z-index: -1;
+    
+ }
+ .rod {
+    text-align: center;
+    margin-top: 100px;
+
+ }
